@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ChaWATApi</string>
+    <string-array name="url_sites">
+        <item>https://chor.wat.edu.pl</item>
+        <item>https://m.youtube.com/user/ChorAkademickiWAT/</item>
+        <item>https://m.instagram.com/cha_wat/</item>
+        <item>https://m.facebook.com/ChorAkademickiWAT/</item>
+    </string-array>
 </resources>
