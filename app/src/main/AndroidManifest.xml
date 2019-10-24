@@ -13,9 +13,9 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".site_activity"></activity>
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="swiru95.chwat.chawatapi.site_activity"></activity>
+        <activity android:name="swiru95.chwat.chawatapi.SecondActivity" />
+        <activity android:name="swiru95.chwat.chawatapi.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

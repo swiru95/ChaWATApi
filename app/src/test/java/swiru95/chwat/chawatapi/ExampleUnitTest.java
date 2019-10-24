@@ -1,4 +1,4 @@
-package com.example.chawatapi;
+package swiru95.chwat.chawatapi;
 
 import org.junit.Test;
 

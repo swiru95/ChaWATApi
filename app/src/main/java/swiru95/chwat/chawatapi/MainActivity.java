@@ -1,4 +1,4 @@
-package com.example.chawatapi;
+package swiru95.chwat.chawatapi;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,7 +10,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
+
+import com.example.chawatapi.R;
 
 
 public class MainActivity<button1> extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.chawatapi;
+package swiru95.chwat.chawatapi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
+
+import com.example.chawatapi.R;
 
 public class SecondActivity extends AppCompatActivity {
 

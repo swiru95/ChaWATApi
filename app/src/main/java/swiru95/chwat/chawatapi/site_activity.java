@@ -1,13 +1,12 @@
-package com.example.chawatapi;
+package swiru95.chwat.chawatapi;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.net.http.SslError;
 import android.os.Bundle;
-import android.webkit.SslErrorHandler;
-import android.webkit.WebChromeClient;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import com.example.chawatapi.R;
 
 public class site_activity extends AppCompatActivity {
 

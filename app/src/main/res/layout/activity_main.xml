@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:onClick="goToAnotherActivity"
-    tools:context=".MainActivity">
+    tools:context="swiru95.chwat.chawatapi.MainActivity">
 
     <TextView
         android:id="@+id/textView"

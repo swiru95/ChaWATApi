@@ -1,4 +1,4 @@
-package com.example.chawatapi;
+package swiru95.chwat.chawatapi;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.example.chawatapi", appContext.getPackageName());
+        assertEquals("com.chwat.chawatapi", appContext.getPackageName());
     }
 }
