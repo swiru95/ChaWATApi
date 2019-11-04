@@ -4,16 +4,19 @@
     package="com.example.chawatapi">
 
     <dist:module dist:instant="true" />
+
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:usesCleartextTraffic="true"
-        android:theme="@style/AppTheme">
-        <activity android:name="swiru95.chwat.chawatapi.site_activity"></activity>
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="swiru95.chwat.chawatapi.Application_formula"/>
+        <activity android:name="swiru95.chwat.chawatapi.site_activity" />
         <activity android:name="swiru95.chwat.chawatapi.SecondActivity" />
         <activity android:name="swiru95.chwat.chawatapi.MainActivity">
             <intent-filter>

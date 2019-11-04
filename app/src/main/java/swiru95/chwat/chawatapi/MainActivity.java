@@ -14,7 +14,7 @@ import android.view.View;
 import com.example.chawatapi.R;
 
 
-public class MainActivity<button1> extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
