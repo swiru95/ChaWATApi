@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import com.example.chawatapi.R;
+import swiru95.chwat.chawatapi.R;
 
 public class Application_formula extends AppCompatActivity {
 
@@ -19,15 +19,15 @@ public class Application_formula extends AppCompatActivity {
     }
 
     public void sendEmail(View view){
-        String message = ((EditText) findViewById(R.id.uri_box)).getText().toString();
+
         Intent emailIntent = new Intent(Intent.ACTION_SENDTO,
-                Uri.fromParts("mailto", message, null));
-        ((EditText) findViewById(R.id.uri_box)).setText("DONE");
-        emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[] {"chor@wat.edu.pl"});
+                Uri.fromParts("mailto", "chor.wat.edu.pl", null));
         emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Rekrutacja");
-        message=((EditText)findViewById(R.id.mail_box)).getText().toString();;
-        ((EditText) findViewById(R.id.mail_box)).setText("DONE");
-        emailIntent.putExtra(Intent.EXTRA_TEXT, "Email message text");
+        emailIntent.putExtra(
+                Intent.EXTRA_TEXT,
+                ((EditText)findViewById(R.id.mail_box)).getText().toString()+
+                "\nWysłano od: "+ ((EditText)findViewById(R.id.uri_box)).getText().toString()
+        );
         startActivityForResult(emailIntent, 1);
     }
 }

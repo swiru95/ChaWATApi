@@ -11,7 +11,7 @@ import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.chawatapi.R;
+import swiru95.chwat.chawatapi.R;
 
 
 public class MainActivity extends AppCompatActivity {

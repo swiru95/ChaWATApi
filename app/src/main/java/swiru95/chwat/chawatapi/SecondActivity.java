@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.View;
 import swiru95.chwat.chawatapi.Application_formula;
 
-import com.example.chawatapi.R;
+import swiru95.chwat.chawatapi.R;
 
 public class SecondActivity extends AppCompatActivity {
 

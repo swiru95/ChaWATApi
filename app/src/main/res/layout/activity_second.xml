@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="goToAnotherActivity"
     tools:context="swiru95.chwat.chawatapi.SecondActivity">
 
     <Button
@@ -12,6 +11,7 @@
         android:layout_width="256dp"
         android:layout_height="0dp"
         android:onClick="goToAnotherActivity"
+        android:shadowColor="#929292"
         android:text="Strona"
         app:layout_constraintBottom_toTopOf="@+id/button_yt"
         app:layout_constraintEnd_toStartOf="@+id/button_face"
@@ -23,6 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:onClick="goToAnotherActivity"
+        android:shadowColor="#929292"
         android:text="FB"
         app:layout_constraintBottom_toTopOf="@+id/button_insta"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
@@ -36,6 +37,7 @@
         android:layout_marginEnd="1dp"
         android:layout_marginRight="1dp"
         android:onClick="goToAnotherActivity"
+        android:shadowColor="#929292"
         android:text="YT"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/button_insta"
@@ -47,6 +49,7 @@
         android:layout_width="255dp"
         android:layout_height="0dp"
         android:onClick="goToAnotherActivity"
+        android:shadowColor="#929292"
         android:text="Instagram"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
@@ -98,6 +101,7 @@
         android:layout_marginBottom="32dp"
         android:onClick="goToAnotherActivity"
         android:text="Dołącz do nas!!"
+        android:textColor="#1e73be"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="@+id/guideline4"

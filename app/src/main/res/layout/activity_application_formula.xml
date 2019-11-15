@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:onClick="sendEmail"
     tools:context="swiru95.chwat.chawatapi.Application_formula">
 
     <TextView
@@ -75,6 +74,7 @@
         android:layout_height="146dp"
         android:layout_marginTop="16dp"
         android:ems="10"
+        android:gravity="top|left"
         android:inputType="textPersonName"
         android:text="imię, nazwisko i info"
         app:layout_constraintBottom_toTopOf="@+id/guideline2"
@@ -87,8 +87,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="49dp"
-        android:text="Zgłoś się!"
         android:onClick="sendEmail"
+        android:text="Zgłoś się!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline8"
         app:layout_constraintStart_toStartOf="@+id/guideline7"
