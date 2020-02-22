@@ -7,8 +7,8 @@ android {
         applicationId "swiru95.chwat.chawatapi"
         minSdkVersion 15
         targetSdkVersion 29
-        versionCode 3
-        versionName "3.0"
+        versionCode 5
+        versionName "5.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {

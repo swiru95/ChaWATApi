@@ -15,10 +15,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="swiru95.chwat.chawatapi.Application_formula"/>
+        <activity android:name="swiru95.chwat.chawatapi.Application_formula"
+            android:screenOrientation="sensorPortrait"/>
         <activity android:name="swiru95.chwat.chawatapi.site_activity" />
-        <activity android:name="swiru95.chwat.chawatapi.SecondActivity" />
-        <activity android:name="swiru95.chwat.chawatapi.MainActivity">
+        <activity android:name="swiru95.chwat.chawatapi.SecondActivity"
+            android:screenOrientation="sensorPortrait"/>
+        <activity android:name="swiru95.chwat.chawatapi.MainActivity"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
